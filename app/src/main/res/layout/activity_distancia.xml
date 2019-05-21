@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Distancia">
+    setTitle("Hello Centimetros a Metros");
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="23dp"
+        android:text="Unidades"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <Button
+        android:id="@+id/METROS"
+        android:layout_width="324dp"
+        android:layout_height="38dp"
+        android:text="Calcular"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <EditText
+        android:id="@+id/Resultado"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="284dp" />
+
+</android.support.constraint.ConstraintLayout>
